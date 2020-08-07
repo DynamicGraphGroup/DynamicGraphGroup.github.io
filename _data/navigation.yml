@@ -12,6 +12,8 @@ main:
   - title: "Posters"
     url: /Posters/
         
+  - title: "Members"
+    url: /Members/
 
   - title: "Contact"
     url: /Contact/
