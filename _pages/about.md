@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Introduction"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Networks are ubiquitous, they can be categorized as static network and dynamic networks. There are many optimized graph algorithms to analyze static networks,however there are very few algorithms which analyze dynamic networks.
+
+We use an elegant technique called graph sparsification to create fast and scalable parallel algorithms for updating properties of dynamic networks. Using a divide and conquer approach, the original network is divided recursively into several small subgraphs over a structure called the sparsification tree, until each subgraph represents an edge in the network. Graph sparsification is based on the observation that the edges that pertain to the property to be computed, here termed as key edges, often form a very small portion of the total edges of the network, and therefore requires less time to be updated. Also when a new edge is added or deleted, we only need to consider the subgraph to which it belongs.
+
+In this website we present the first parallel implementation of graph sparsification, and show how scalable algorithms can be developed for updating weighted graph properties such as minimum weighted spanning tree.
 
 A data-driven personal website
 ======
