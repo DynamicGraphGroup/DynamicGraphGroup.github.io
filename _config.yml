@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DynamicGraphGroup/ DynamicGraphGroup home"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "DynamicGraphGroup"
 description              : &description "personal description"
