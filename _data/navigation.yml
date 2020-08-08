@@ -10,10 +10,10 @@ main:
     url: /talks/    
 
   - title: "Posters"
-    url: /Posters/
+    url: /posters/
         
   - title: "Members"
-    url: /Members/
+    url: /members/
 
   - title: "Contact"
-    url: /Contact/
+    url: /contact/
