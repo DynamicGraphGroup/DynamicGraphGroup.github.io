@@ -1,8 +1,7 @@
 ---
-permalink: /
+layout: archive
 title: "Accomplishments"
 permalink: /accomplishments/
-excerpt: "accomplishments"
 author_profile: true
 ---
 
