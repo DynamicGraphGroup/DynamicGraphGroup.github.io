@@ -12,5 +12,4 @@ Networks are ubiquitous, they can be categorized as static network and dynamic n
 
 We use an elegant technique called graph sparsification to create fast and scalable parallel algorithms for updating properties of dynamic networks. Using a divide and conquer approach, the original network is divided recursively into several small subgraphs over a structure called the sparsification tree, until each subgraph represents an edge in the network. Graph sparsification is based on the observation that the edges that pertain to the property to be computed, here termed as key edges, often form a very small portion of the total edges of the network, and therefore requires less time to be updated. Also when a new edge is added or deleted, we only need to consider the subgraph to which it belongs.
 
-In this website we present the first parallel implementation of graph sparsification, and show how scalable algorithms can be developed for updating weighted graph properties such as minimum weighted spanning tree.
 
