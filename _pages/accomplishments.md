@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Accomplishment"
+excerpt: "Accomplishment"
+author_profile: true
+redirect_from: 
+  - /accomplishment/
+  - /accomplishment.html
+---
 The primary goal of this group is to develop parallel algorithms for updating properties of dynamic networks. The main challenge in scalable parallel algorithms design is poor locality of memory accesses for graph traversals, leading to increased computation time and power requirements, and reduced opportunities for scalability. 
 
 We advocated a three-step process for parallel update of graph properties. In the first step, called Sparsification, we identify key edges in the network. In the second step, called Selection, we test for each changed edge on the sparsified graph, as to whether the edge affected the property or not. In the final step, called Update, the structure of the network is updated based on the selected edges.
