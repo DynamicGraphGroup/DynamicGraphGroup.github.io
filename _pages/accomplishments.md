@@ -1,12 +1,12 @@
 ---
 permalink: /
-title: "Accomplishment"
-permalink: /accomplishment/
-excerpt: "Accomplishment"
+title: "Accomplishments"
+permalink: /Accomplishments/
+excerpt: "Accomplishments"
 author_profile: true
 redirect_from: 
-  - /accomplishment/
-  - /accomplishment.html
+  - /accomplishments/
+  - /accomplishments.html
 ---
 
 The primary goal of this group is to develop parallel algorithms for updating properties of dynamic networks. The main challenge in scalable parallel algorithms design is poor locality of memory accesses for graph traversals, leading to increased computation time and power requirements, and reduced opportunities for scalability. 
